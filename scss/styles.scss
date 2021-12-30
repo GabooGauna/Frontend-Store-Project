@@ -1,0 +1,16 @@
+$color: #fff;
+// @if $color = #fff {
+//   .jamon {
+//     color: green;
+//   }
+// } @else {
+//   .jamon {
+//     color: blue;
+//   }
+// }
+
+@for $var from 1 through 4 {
+  .ciclo-#{$var} {
+    margin: $var * 2;
+  }
+}
