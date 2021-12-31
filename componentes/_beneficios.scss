@@ -1,0 +1,37 @@
+.beneficios-title {
+  font-size: 35px;
+  color: #fff;
+}
+.beneficio-subtitle {
+  font-size: 25px;
+  color: $amarillo;
+}
+.span-platino {
+  color: #39c29d;
+}
+.span-diamante {
+  color: #07c3db;
+}
+.beneficio-text {
+  font-size: 16px;
+  color: #fff;
+}
+.beneficio-uno {
+  background-color: #6d3251;
+  border: 3px solid #df6730;
+  border-radius: 10px;
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.beneficio-dos {
+  background-color: #342e42;
+  border: 3px solid #b49ceb;
+  border-radius: 10px;
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,44 @@
+.nosotros-title,
+.productos-title {
+  font-size: 35px;
+  color: #fff;
+}
+.nosotros-subtitle {
+  font-size: 25px;
+  color: $amarillo;
+}
+.nosotros-container {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(37, 7, 44) 0px,
+    rgb(37, 7, 44) 20px,
+    #361330 20px,
+    #361330 40px
+  );
+  border: 3px ridge $amarillo;
+  border-radius: 10px;
+}
+.nosotros-img {
+  border-radius: 10px;
+  object-fit: cover;
+  transition: all 0.4s;
+  &:hover {
+    transform: scale(0.95);
+  }
+}
+.nosotros-text {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.redes {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 50px;
+  transition: all 0.5s;
+  &:hover {
+    color: rgb(202, 182, 207);
+  }
+}

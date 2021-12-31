@@ -1,11 +1,203 @@
-.ciclo-1 {
-  margin: 2; }
+.nav-link {
+  font-size: 16px;
+  color: #000; }
+  .nav-link:hover {
+    background-color: #f3ebf5;
+    font-weight: bold; }
 
-.ciclo-2 {
-  margin: 4; }
+.altura {
+  height: 450px; }
 
-.ciclo-3 {
-  margin: 6; }
+.bg-1 {
+  background-image: linear-gradient(to bottom, rgba(124, 126, 141, 0.52), rgba(109, 7, 83, 0.73)), url("../img/grafico1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
 
-.ciclo-4 {
-  margin: 8; }
+.bg-2 {
+  background-image: linear-gradient(to bottom, rgba(124, 126, 141, 0.52), rgba(109, 7, 83, 0.73)), url("../img/grafico2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.bg-3 {
+  background-image: linear-gradient(to bottom, rgba(124, 126, 141, 0.52), rgba(109, 7, 83, 0.73)), url("../img/nosotros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.t-cs {
+  font-size: 30px; }
+
+.p-cs {
+  font-size: 12px; }
+
+.beneficios-title {
+  font-size: 35px;
+  color: #fff; }
+
+.beneficio-subtitle {
+  font-size: 25px;
+  color: #f2b90c; }
+
+.span-platino {
+  color: #39c29d; }
+
+.span-diamante {
+  color: #07c3db; }
+
+.beneficio-text {
+  font-size: 16px;
+  color: #fff; }
+
+.beneficio-uno {
+  background-color: #6d3251;
+  border: 3px solid #df6730;
+  border-radius: 10px;
+  transition: all 0.5s; }
+  .beneficio-uno:hover {
+    transform: scale(1.05); }
+
+.beneficio-dos {
+  background-color: #342e42;
+  border: 3px solid #b49ceb;
+  border-radius: 10px;
+  transition: all 0.5s; }
+  .beneficio-dos:hover {
+    transform: scale(1.05); }
+
+.servicios-title {
+  text-align: center;
+  font-size: 35px;
+  color: #fff; }
+
+.servicios-subtitle {
+  font-size: 20px;
+  color: #f2b90c; }
+
+.servicios-text {
+  font-size: 13px;
+  color: #fff; }
+
+.img-servicios {
+  object-fit: cover; }
+
+.testimonios-title {
+  text-align: center;
+  font-size: 35px;
+  color: #fff; }
+
+.testimonios-container {
+  background-color: #000;
+  border: 10px groove #8c7eac;
+  border-radius: 10px;
+  margin-bottom: 70px; }
+
+.testimonios {
+  width: 400px;
+  height: 320px; }
+
+.testimonio-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
+
+.testimonio-name {
+  font-size: 20px;
+  color: #f2b90c; }
+
+.testimonios-text {
+  font-size: 13px;
+  color: #fff; }
+
+.nosotros-title,
+.productos-title {
+  font-size: 35px;
+  color: #fff; }
+
+.nosotros-subtitle {
+  font-size: 25px;
+  color: #f2b90c; }
+
+.nosotros-container {
+  background-image: repeating-linear-gradient(-45deg, #25072c 0px, #25072c 20px, #361330 20px, #361330 40px);
+  border: 3px ridge #f2b90c;
+  border-radius: 10px; }
+
+.nosotros-img {
+  border-radius: 10px;
+  object-fit: cover;
+  transition: all 0.4s; }
+  .nosotros-img:hover {
+    transform: scale(0.95); }
+
+.nosotros-text {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6; }
+
+.redes {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 50px;
+  transition: all 0.5s; }
+  .redes:hover {
+    color: #cab6cf; }
+
+.productos-container {
+  background-color: #0d0716;
+  border: 5px groove #c04371;
+  border-radius: 10px; }
+
+.productos-subtitle {
+  font-size: 20px;
+  color: #f2b90c; }
+
+.producto-img {
+  width: 300px;
+  height: 300px;
+  border: 10px ridge #8c7eac;
+  border-radius: 15px; }
+
+.producto-text {
+  font-size: 16px;
+  color: #fff; }
+
+.form-label {
+  color: #fff;
+  font-size: 14px; }
+
+.bg-contacto {
+  background-image: url(../img/imagen-contacto.png);
+  background-position: center center;
+  background-size: cover; }
+
+.footer {
+  background-color: #fff; }
+
+.footer-text {
+  font-size: 16px;
+  color: #000; }
+
+.nav-link:hover {
+  background-color: #f3ebf5;
+  font-weight: bold;
+  color: #000; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #20192a; }

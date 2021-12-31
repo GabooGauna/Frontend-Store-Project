@@ -1,0 +1,28 @@
+.testimonios-title {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+}
+.testimonios-container {
+  background-color: #000;
+  border: 10px groove $violeta;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+.testimonios {
+  width: 400px;
+  height: 320px;
+}
+.testimonio-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.testimonio-name {
+  font-size: 20px;
+  color: $amarillo;
+}
+.testimonios-text {
+  font-size: 13px;
+  color: #fff;
+}

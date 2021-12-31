@@ -1,16 +1,27 @@
-$color: #fff;
-// @if $color = #fff {
-//   .jamon {
-//     color: green;
-//   }
-// } @else {
-//   .jamon {
-//     color: blue;
-//   }
-// }
+@import "componentes/variables";
+@import "componentes/navbar";
+@import "componentes/carousel";
+@import "componentes/beneficios";
+@import "componentes/servicios";
+@import "componentes/testimonios";
+@import "componentes/nosotros";
+@import "componentes/productos";
+@import "componentes/contacto";
+@import "componentes/footer";
+@import "scss/mixin";
 
-@for $var from 1 through 4 {
-  .ciclo-#{$var} {
-    margin: $var * 2;
-  }
+* {
+  @include reset;
+}
+html {
+  @include html;
+}
+
+*,
+*:before,
+*:after {
+  @include caja;
+}
+body {
+  @include body;
 }
