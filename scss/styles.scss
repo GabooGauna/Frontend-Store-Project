@@ -1,14 +1,14 @@
-@import "componentes/variables";
-@import "componentes/navbar";
-@import "componentes/carousel";
-@import "componentes/beneficios";
-@import "componentes/servicios";
-@import "componentes/testimonios";
-@import "componentes/nosotros";
-@import "componentes/productos";
-@import "componentes/contacto";
-@import "componentes/footer";
-@import "scss/mixin";
+@import "../componentes/variables";
+@import "../componentes/navbar";
+@import "../componentes/carousel";
+@import "../componentes/beneficios";
+@import "../componentes/servicios";
+@import "../componentes/testimonios";
+@import "../componentes/nosotros";
+@import "../componentes/productos";
+@import "../componentes/contacto";
+@import "../componentes/footer";
+@import "./mixin";
 
 * {
   @include reset;
