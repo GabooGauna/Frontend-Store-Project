@@ -145,24 +145,8 @@
   .redes:hover {
     color: #cab6cf; }
 
-.productos-container {
-  background-color: #0d0716;
-  border: 5px groove #c04371;
-  border-radius: 10px; }
 
-.productos-subtitle {
-  font-size: 20px;
-  color: #f2b90c; }
 
-.producto-img {
-  width: 300px;
-  height: 300px;
-  border: 10px ridge #8c7eac;
-  border-radius: 15px; }
-
-.producto-text {
-  font-size: 16px;
-  color: #fff; }
 
 .form-label {
   color: #fff;
