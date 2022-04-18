@@ -12,13 +12,13 @@
     "thumbnailUrl": "../img/2.jpg"
   },
   {
-    "precio": 1350,
+    "precio": 1500,
     "id": 3,
     "title": "Remera React.JS",
     "thumbnailUrl": "../img/3.jpg"
   },
   {
-    "precio": 1350,
+    "precio": 1500,
     "id": 4,
     "title": "Remera Redux",
     "thumbnailUrl": "../img/4.jpg"
